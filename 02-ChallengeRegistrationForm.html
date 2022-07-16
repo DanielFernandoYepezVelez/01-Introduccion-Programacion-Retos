@@ -7,120 +7,288 @@
     <meta name="author" content="Daniel Fernando Yepez Velez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="./css/02-ChallengeRegistrationForm.css">
 </head>
 
 <body>
     <nav>
-        <h1>FORM REGISTRATION</h1>
-        <h2>CESDE -- COMFAMA</h2>
+        <center>
+            <h1>FORM REGISTRATION</h1>
+            <h2>CESDE -- COMFAMA</h2>
+        </center>
     </nav>
 
     <main>
-        <fieldset>
-            <legend>STUDENT DATA</legend>
-            <table>
-                <tr>
-                    <tr>
-                        <td>
-                            <label for="#"><strong>Identificación *</strong></label>
-                        </td>
-                        <td>
-                            <input type="number" name="#" id="#" placeholder="Obligatorio max(17)Nros">
-                        </td>
-                        <td></td>
-                        <td>
-                            <label for="#"><strong>Fecha Nacimiento *</strong></label>
-                        </td>
-                        <td>
-                            <input type="date" name="#" id="#">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="#"><strong>Apellidos</strong></label>
-                        </td>
-                        <td>
-                            <input type="text" name="#" id="#" placeholder="Obligatorio max(20)letras">
-                        </td>
-                        <td></td>
-                        <td>
-                            <label for="#"><strong>Edad</strong></label>
-                        </td>
-                        <td>
-                            <input type="text" name="#" id="#" width="50px">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="#"><strong>Nombre</strong></label>
-                        </td>
-                        <td>
-                            <input type="text" name="#" id="#" placeholder="Obligatorio max(20)letras">
-                        </td>
-                        <td></td>
-                        <td>
-                            <label for="#"><strong>Mes Nacimiento</strong></label>
-                        </td>
-                        <td>
-                            <input type="datetime-local" name="#" id="#">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="#"><strong>Email</strong></label>
-                        </td>
-                        <td>
-                            <input type="email" name="#" id="#">
-                        </td>
-                        <td></td>
-                        <td>
-                            <label for="#"><strong>Genero</strong></label>
-                        </td>
-                        <td>
-                            <input type="radio" name="#" id="#"> Masculino
-                            <input type="radio" name="#" id="#"> Femenino
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="#"><strong>Celular</strong></label>
-                        </td>
-                        <td>
-                            <input type="tel" name="#" id="#" placeholder="### ### ## ##">
-                        </td>
-                        <td></td>
-                        <td>
-                            <label for="#"><strong>Comuna (*Barrios*)</strong></label>
-                        </td>
-                        <td>
-                            <select name="color" id="color">
-                                <option>Elige Una Option</option>
-                                <option value="r">Robledo</option>
-                                <option value="a">Aguas Frias</option>
-                                <option value="v">Villadolid</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <fieldset>
-                                <legend>Free Time</legend>
-                                <input type="checkbox" name="#" id="#"> Estudio <br>
-                                <input type="checkbox" name="#" id="#"> Deporte <br>
-                                <input type="checkbox" name="#" id="#"> Redes Sociales <br>
-                                <input type="checkbox" name="#" id="#"> Musica <br>
-                                <input type="checkbox" name="#" id="#"> Video Juegos <br>
-                            </fieldset>
-                        </td>
-                    </tr>
-                </tr>
-            </table>
-        </fieldset>
+        <article>
+            <section>
+                <fieldset>
+                    <legend>STUDENT DATA</legend>
+                    <center>
+
+                        <table style="width: 80%;">
+                            <thead></thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="#"><strong>ID *</strong></label>
+                                        <br><br>
+                                        <label for="#"><strong>Surnames</strong></label>
+                                        <br><br>
+                                        <label for="#"><strong>Name</strong></label>
+                                        <br><br>
+                                        <label for="#"><strong>Email</strong></label>
+                                        <br><br>
+                                        <label for="#"><strong>Mobile phone</strong></label>
+                                        <td>
+                                            <br>
+                                            <input type="number" name="#" id="#" placeholder="Required max(17)Nros">
+                                            <br><br>
+                                            <input type="text" name="#" id="#" placeholder="Required max(20)letters">
+                                            <br><br>
+                                            <input type="text" name="#" id="#" placeholder="Required max(20)letters">
+                                            <br><br>
+                                            <input type="email" name="#" id="#" placeholder="E-mail">
+                                            <br><br>
+                                            <input type="tel" name="#" id="#" placeholder="### ### ## ##">
+                                        </td>
+                                        <td>
+                                            <label for="#"><strong>Date of Birth *</strong></label>
+                                            <br><br>
+                                            <label for="#"><strong>Age</strong></label>
+                                            <br><br>
+                                            <label for="#"><strong>Birth Month</strong></label>
+                                            <br><br>
+                                            <label for="#"><strong>Gender</strong></label>
+                                            <br><br>
+                                            <label for="#"><strong>Commune (*Neighborhoods*)</strong></label>
+                                            <td>
+                                                <input type="date" name="#" id="#">
+                                                <br><br>
+                                                <input type="text" name="#" id="#" style="width: 50px;">
+                                                <br><br>
+                                                <input type="datetime-local" name="#" id="#">
+                                                <br><br>
+                                                <input type="radio" name="#" id="#"> Male
+                                                <input type="radio" name="#" id="#"> Female
+                                                <br><br>
+                                                <select name="#" id="#">
+                                                    <option>Choose Option</option>
+                                                    <option value="r">Robledo</option>
+                                                    <option value="a">Aguas Frias</option>
+                                                    <option value="v">Villadolid</option>
+                                                </select>
+                                            </td>
+                                        </td>
+                                    </td>
+                                    <td>
+                                        <fieldset>
+                                            <legend>Free Time</legend>
+                                            <input type="checkbox" name="#" id="#"> Study <br>
+                                            <input type="checkbox" name="#" id="#"> Sport <br>
+                                            <input type="checkbox" name="#" id="#"> Social Networks <br>
+                                            <input type="checkbox" name="#" id="#"> Music <br>
+                                            <input type="checkbox" name="#" id="#"> Video games <br>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </center>
+                </fieldset>
+            </section>
+
+            <section>
+                <center>
+                    <h2>*** SELECT THE SUBJECTS OF THE SEMESTER ***</h2>
+                    <table style="width: 60%;">
+                        <thead>
+                            <tr>
+                                <th>SUBJECTS</th>
+                                <th>Nro <br> Credits</th>
+                                <th>Vlr 1 Credit</th>
+                                <th>Subtotal</th>
+                                <th>Schedule</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <select name="#" id="#" style="width: 170px;">
+                                        <option>Choose Option</option>
+                                        <option value="i">Introduction</option>
+                                        <option value="d">Databases</option>
+                                        <option value="a">Algorithms</option>
+                                        <option value="e">Entrepreneurship</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#" placeholder="Credit Value">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <input type="submit" value="Calculate">
+                                </td>
+                                <td style="width: 200px;"></td>
+                                <td>
+                                    <select name="#" id="#">
+                                        <option>Choose Option</option>
+                                        <option value="m">Morning</option>
+                                        <option value="a">Afternoon</option>
+                                        <option value="e">Evening</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="#" id="#" style="width: 170px;">
+                                        <option>Choose Option</option>
+                                        <option value="i">Introduction</option>
+                                        <option value="d">Databases</option>
+                                        <option value="a">Algorithms</option>
+                                        <option value="e">Entrepreneurship</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#" placeholder="Credit Value">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <select name="#" id="#">
+                                        <option>Choose Option</option>
+                                        <option value="m">Morning</option>
+                                        <option value="a">Afternoon</option>
+                                        <option value="e">Evening</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="#" id="#" style="width: 170px;">
+                                        <option>Choose Option</option>
+                                        <option value="i">Introduction</option>
+                                        <option value="d">Databases</option>
+                                        <option value="a">Algorithms</option>
+                                        <option value="e">Entrepreneurship</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#" placeholder="Credit Value">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <select name="#" id="#">
+                                        <option>Choose Option</option>
+                                        <option value="m">Morning</option>
+                                        <option value="a">Afternoon</option>
+                                        <option value="e">Evening</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="#" id="#" style="width: 170px;">
+                                        <option>Choose Option</option>
+                                        <option value="i">Introduction</option>
+                                        <option value="d">Databases</option>
+                                        <option value="a">Algorithms</option>
+                                        <option value="e">Entrepreneurship</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#" placeholder="Credit Value">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <select name="#" id="#">
+                                        <option>Choose Option</option>
+                                        <option value="m">Morning</option>
+                                        <option value="a">Afternoon</option>
+                                        <option value="e">Evening</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="#" id="#" style="width: 170px;">
+                                        <option>Choose Option</option>
+                                        <option value="i">Introduction</option>
+                                        <option value="d">Databases</option>
+                                        <option value="a">Algorithms</option>
+                                        <option value="e">Entrepreneurship</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#" placeholder="Credit Value">
+                                </td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <select name="#" id="#">
+                                        <option>Choose Option</option>
+                                        <option value="m">Morning</option>
+                                        <option value="a">Afternoon</option>
+                                        <option value="e">Evening</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>*****</th>
+                                <th>Nro <br> Credits</th>
+                                <th>****</th>
+                                <th>Total</th>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="text" name="#" id="#" style="width: 50px;">
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="number" name="#" id="#">
+                                </td>
+                                <td>
+                                    <input type="submit" value="Calculate">
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </center>
+            </section>
+            <section>
+                <input type="submit" value="Send Data">
+                <br>
+                <hr>
+            </section>
+        </article>
     </main>
 
     <footer></footer>
-
 </body>
 
 </html>
